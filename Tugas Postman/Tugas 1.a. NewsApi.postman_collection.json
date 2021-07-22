@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "a66b44f5-dfc8-4a12-b9fa-4b17e4b9c605",
+		"name": "Tugas 1.a. NewsApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1.a. top headline science di egypt",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=eg&category=science&apiKey=e97b732ab979432a82754be73452338d",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "eg"
+						},
+						{
+							"key": "category",
+							"value": "science"
+						},
+						{
+							"key": "apiKey",
+							"value": "e97b732ab979432a82754be73452338d"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1.a. artikel tentang physics/fisika pada 14 juli 2021 diurutkan berdasarkan popularitas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=physics&from=2021-07-14&to=2021-07-14&sortBy=popularity&apiKey=e97b732ab979432a82754be73452338d",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "physics"
+						},
+						{
+							"key": "from",
+							"value": "2021-07-14"
+						},
+						{
+							"key": "to",
+							"value": "2021-07-14"
+						},
+						{
+							"key": "sortBy",
+							"value": "popularity"
+						},
+						{
+							"key": "apiKey",
+							"value": "e97b732ab979432a82754be73452338d"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1.a. artikel terkait kesehatan/health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines/sources?category=health&apiKey=e97b732ab979432a82754be73452338d",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines",
+						"sources"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "health"
+						},
+						{
+							"key": "apiKey",
+							"value": "e97b732ab979432a82754be73452338d"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1.a. artikel top headline dari indonesia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=id&apiKey=e97b732ab979432a82754be73452338d",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "id"
+						},
+						{
+							"key": "apiKey",
+							"value": "e97b732ab979432a82754be73452338d"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1.a. artikel yang dipublish oleh cnnindonesia.com dan kompas.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?domains=cnnindonesia.com,kompas.com&apiKey=e97b732ab979432a82754be73452338d",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "domains",
+							"value": "cnnindonesia.com,kompas.com"
+						},
+						{
+							"key": "apiKey",
+							"value": "e97b732ab979432a82754be73452338d"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
